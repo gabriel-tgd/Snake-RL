@@ -12,7 +12,7 @@ record = 0
 
 print(len(state))
                                                                                                                
-fichier = ""                                                                                                                                                                                                                        
+fichier = ""    #chemin du model. EX : C:\Users\toi\model.pth                                                                                                                                                                                                                       
 
 with open(f"logging_{fichier}.txt", "a") as a:
 
