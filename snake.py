@@ -3,7 +3,7 @@ from snake_pygame import SnakeGame
 import torch
 
 
-checkpoint = torch.load(r"")
+checkpoint = torch.load(r"")   #chemin du model. EX : C:\Users\toi\model.pth
 
 model = Net()
 model.load_state_dict(checkpoint["model_state"])
